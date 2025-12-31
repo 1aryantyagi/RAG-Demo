@@ -851,8 +851,6 @@ If you find this project useful, please consider giving it a star on GitHub!
 
 ---
 
-**Made with ❤️ by the Agentic RAG Team**
-
 **🚀 Ready to get started? Follow the [Installation](#-installation) and [Configuration](#-configuration) sections above!**
 
 ---
