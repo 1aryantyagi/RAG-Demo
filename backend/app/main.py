@@ -42,12 +42,11 @@ synthesizer_agent = ResponseSynthesizerAgent()
 # In-memory document store
 documents_db: Dict[str, DocumentInfo] = {}
 
-@app.get("/")
-async def root():
+@app.get("/api/health")
+async def health():
     return {
-        "message": "Agentic RAG System API",
-        "version": "1.0.0",
-        "status": "running"
+        "status": "ok",
+        "service": "agentic-rag-backend"
     }
 
 @app.post("/api/upload", response_model=DocumentUploadResponse)
